@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="main-container">
+    <div class="input-container">
+      <input class="city-input" type="text" placeholder="Search City">
+      <button class="search-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div> <!--input-container-->
+
+    <section class="weather-info" style="display: none;">
+      <div class="location-date-container">
+      <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <h4 class="country-txt">Cairo</h4>
+      </div>
+      <h5 class="current-date-txt regular-txt"> Sat , 05 October</h5>
+    </div>
+
+    <div class="weather-summary-container">
+      <img src="images/clouds.svg" alt="" class="weather-summary-img">
+      <div class="weather-summary-info">
+        <h2 class="temp-txt">29 °C</h2>
+        <h3 class="condition-txt regular-txt">Clouds</h3>
+      </div>
+    </div>
+
+    <div class="weather-conditions-container">
+
+      <div class="condition-item">
+        <i class="fa-solid fa-droplet"></i>
+      <div class="condition-info">
+        <h5 class="regular-txt">Humidity</h5>
+        <h5 class="Humidity-value-txt">55%</h5>
+      </div>
+    </div>
+
+    <div class="condition-item">
+      <i class="fa-solid fa-wind"></i>
+    <div class="condition-info">
+      <h5 class="regular-txt">Wind Speed</h5>
+      <h5 class="wind-value-txt"> 2 M/s</h5>
+    </div>
+  </div>
+    </div>
+
+    <div class="forcast-items-container">
+      <div class="forcast-item">
+        <h5 class="forcast-item-date regular-txt"> thr 03 october</h5>
+        <img src="images/thunderstorm.svg" alt="" class="forcast-item-img">
+        <h5 class="forcast-item-temp">29 °C</h5>
+      </div>
+
+      <div class="forcast-item">
+        <h5 class="forcast-item-date regular-txt"> thr 03 october</h5>
+        <img src="images/thunderstorm.svg" alt="" class="forcast-item-img">
+        <h5 class="forcast-item-temp">29 °C</h5>
+      </div>
+      <div class="forcast-item">
+        <h5 class="forcast-item-date regular-txt"> thr 03 october</h5>
+        <img src="images/thunderstorm.svg" alt="" class="forcast-item-img">
+        <h5 class="forcast-item-temp">29 °C</h5>
+      </div>
+      <div class="forcast-item">
+        <h5 class="forcast-item-date regular-txt"> thr 03 october</h5>
+        <img src="images/thunderstorm.svg" alt="" class="forcast-item-img">
+        <h5 class="forcast-item-temp">29 °C</h5>
+      </div>
+    </div>
+
+    </section>
+
+    <section class="search-city section-message">
+      <img src="images/search-city.png" alt="">
+       <div>
+        <h2>Search city</h2>
+        <h4 class="regular-txt">
+          Find Out the Weather Condition Of The City
+        </h4>
+       </div>
+    </section>
+
+    <section class="not-found section-message" style="display: none;">
+      <img src="images/not-found.png" alt="">
+       <div>
+        <h2>Search city</h2>
+        <h4 class="regular-txt">
+          Find Out the Weather Condition Of The City
+        </h4>
+       </div>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
